@@ -48,4 +48,3 @@ jobs:
           to: kentdomaoal@gmail.com
           from: Github WorkFlow
           body: Test Completed. Please see report https://kentdomaoal.github.io/jupiter-toys-gh-actions/${{ github.run_number }}
-
