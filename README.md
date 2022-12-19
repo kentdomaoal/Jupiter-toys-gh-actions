@@ -1,4 +1,4 @@
-# planit-assessment-bdd
+# jupiter-toys-gh-actions
 
 ## How to run in local machine
 
@@ -9,9 +9,9 @@
 
 ## 1. Clone the project
 
-       git clone https://github.com/kentdomaoal/planit-assessment-bdd.git
+       git clone https://github.com/kentdomaoal/jupiter-toys-gh-actions.git
        
-       cd planit-assessment-bdd
+       cd jupiter-toys-gh-actions
 
 ## 2. Install dependencies
 
