@@ -37,12 +37,12 @@ jobs:
           publish_branch: allure
           publish_dir: allure-history
 
-      - name: Post the link to the report
-        if: always()
-        uses: Sibz/github-status-action@v1
-        with: 
-          authToken: ${{secrets.GITHUB_TOKEN}}
-          context: 'Test report'
-          state: 'success'
-          sha: ${{ github.event.pull_request.head.sha }}
-          target_url: https://kentdomaoal.github.io/jupiter-toys-gh-actions/${{ github.run_number }}
+      - name: Send Report URL
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          subject: Test Results - Allure Report
+          to: kentdomaoal@gmail.com
+          from: Github WorkFlow
+          body: Test Completed. Please see report https://kentdomaoal.github.io/jupiter-toys-gh-actions/${{ github.run_number }}
