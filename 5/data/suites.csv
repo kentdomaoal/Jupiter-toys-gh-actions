@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Dec 19 04:44:09 GMT 2022","Mon Dec 19 04:44:12 GMT 2022","2750","","Jupiter Toys Contact Page","","","","Navigates to Contact Page and validate error messages for mandatory fields",""
+"passed","Mon Dec 19 04:44:29 GMT 2022","Mon Dec 19 04:44:31 GMT 2022","2399","","Jupiter Toys Contact Page","","","","Navigates to Contact Page and validate successful submission (example #4)",""
+"passed","Mon Dec 19 04:44:31 GMT 2022","Mon Dec 19 04:44:39 GMT 2022","7412","","Jupiter Toys Contact Page","","","","Navigates to Contact Page and validate successful submission (example #5)",""
+"passed","Mon Dec 19 04:44:12 GMT 2022","Mon Dec 19 04:44:21 GMT 2022","8603","","Jupiter Toys Contact Page","","","","Navigates to Contact Page and validate successful submission (example #1)",""
+"passed","Mon Dec 19 04:44:26 GMT 2022","Mon Dec 19 04:44:29 GMT 2022","3108","","Jupiter Toys Contact Page","","","","Navigates to Contact Page and validate successful submission (example #3)",""
+"passed","Mon Dec 19 04:44:21 GMT 2022","Mon Dec 19 04:44:26 GMT 2022","5107","","Jupiter Toys Contact Page","","","","Navigates to Contact Page and validate successful submission (example #2)",""
+"passed","Mon Dec 19 04:44:01 GMT 2022","Mon Dec 19 04:44:05 GMT 2022","4469","","Jupiter Toys Cart Page","","","","Buys Products and validate prices, subtotal, total in Cart Page",""
