@@ -7,6 +7,7 @@ This can be executed in local machine or via Jenkins Pipeline.
 
 Github actions were also setup for its CI/CD Pipeline.
 
+
 ## How to run in local machine
 
 - ## 💻 Pre-requisites
