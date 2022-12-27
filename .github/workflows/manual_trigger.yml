@@ -5,15 +5,17 @@ on:
     # Inputs the workflow accepts.
     inputs:
       ENV:
-        description: 'Select Environment:
-                      dev
-                      qa
-                      stg
-                      prd'
+        description: 'Select Environment:'
         # Default value if no value is explicitly provided
-        default: qa
+        default: 'qa'
         # Input has to be provided for the workflow to run
         required: true
+        type: choice
+        options:
+        - dev
+        - qa
+        - stg
+        - prd
 jobs:
 cypress-run:
     name: Cypress run
@@ -26,7 +28,7 @@ cypress-run:
         uses: cypress-io/github-action@v5
         with:
           browser: chrome
-          command: npm run cy:run:${{github.event.inputs.ENV}}:cucumber
+          command: npm run cy:run:${{ inputs.ENV }}:cucumber
       
       - name: Get Allure history
         uses: actions/checkout@v2
