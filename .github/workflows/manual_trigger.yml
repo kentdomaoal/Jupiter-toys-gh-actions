@@ -28,7 +28,7 @@ jobs:
           uses: cypress-io/github-action@v5
           with:
             browser: chrome
-            command: npm run cy:run:${{ inputs.ENV }}:cucumber
+            command: npm run test:${{ inputs.ENV }}:cucumber
         
         - name: Get Allure history
           uses: actions/checkout@v2

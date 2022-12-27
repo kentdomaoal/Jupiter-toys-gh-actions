@@ -27,7 +27,10 @@
     "posttest:qa:allure": "npm run allure:report",
     "cy:run:qa:cucumber": "cypress run --env allure=true --config-file cypress.qa.cucumber.config.js",
     "test:qa:cucumber": "npm run pretest:allure && npm run cy:run:qa:cucumber || npm run posttest:qa:cucumber ",
-    "posttest:qa:cucumber": "npm run allure:report"
+    "posttest:qa:cucumber": "npm run allure:report",
+    "cy:run:stg:cucumber": "cypress run --env allure=true --config-file cypress.stg.cucumber.config.js",
+    "test:stg:cucumber": "npm run pretest:allure && npm run cy:run:stg:cucumber || npm run posttest:stg:cucumber ",
+    "posttest:stg:cucumber": "npm run allure:report"
   },
   "author": "Kent Paul Noel Domaoal",
   "license": "ISC",

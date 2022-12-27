@@ -12,7 +12,7 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           browser: chrome
-          command: npm run cy:run:qa:cucumber
+          command: npm run test:qa:cucumber
       
       - name: Get Allure history
         uses: actions/checkout@v2
