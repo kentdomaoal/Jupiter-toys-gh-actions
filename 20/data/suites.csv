@@ -1,8 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Dec 27 06:44:20 GMT 2022","Tue Dec 27 06:44:29 GMT 2022","9060","","Jupiter Toys Contact Page","","","","Navigates to Contact Page and validate successful submission (example #1)",""
-"passed","Tue Dec 27 06:44:33 GMT 2022","Tue Dec 27 06:44:36 GMT 2022","2540","","Jupiter Toys Contact Page","","","","Navigates to Contact Page and validate successful submission (example #3)",""
-"passed","Tue Dec 27 06:44:39 GMT 2022","Tue Dec 27 06:44:42 GMT 2022","2931","","Jupiter Toys Contact Page","","","","Navigates to Contact Page and validate successful submission (example #5)",""
-"passed","Tue Dec 27 06:44:29 GMT 2022","Tue Dec 27 06:44:33 GMT 2022","4744","","Jupiter Toys Contact Page","","","","Navigates to Contact Page and validate successful submission (example #2)",""
-"passed","Tue Dec 27 06:44:07 GMT 2022","Tue Dec 27 06:44:12 GMT 2022","4548","","Jupiter Toys Cart Page","","","","Buys Products and validate prices, subtotal, total in Cart Page",""
-"passed","Tue Dec 27 06:44:36 GMT 2022","Tue Dec 27 06:44:39 GMT 2022","2908","","Jupiter Toys Contact Page","","","","Navigates to Contact Page and validate successful submission (example #4)",""
-"passed","Tue Dec 27 06:44:16 GMT 2022","Tue Dec 27 06:44:20 GMT 2022","3376","","Jupiter Toys Contact Page","","","","Navigates to Contact Page and validate error messages for mandatory fields",""
